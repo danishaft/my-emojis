@@ -1,0 +1,86 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+body {
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(#5DA4D9, #FFF);
+    position: relative;
+}
+.cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 85%;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+#emojiContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin:  70px 0px;
+}
+span {
+    font-size: 50px;
+}
+
+#emojis {
+    margin: 40px;
+    text-align: center;
+}
+
+#emojis span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push,#unshift {
+    background-color: #80D87F;
+}
+
+#shift,#pop {
+    background-color: #E23349;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    border: none;
+    height: 35px;
+    width: 50%;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button {
+    font-family: Baloo;
+    letter-spacing: px;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 5px 5px;
+}
+.sm-btn-wrp{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px;
+}
